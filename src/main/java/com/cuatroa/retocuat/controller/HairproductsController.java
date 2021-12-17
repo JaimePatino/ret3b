@@ -1,7 +1,7 @@
-package com.cuatroa.retotres.controller;
+package com.cuatroa.retocuat.controller;
 
-import com.cuatroa.retotres.model.Hairproducts;
-import com.cuatroa.retotres.service.HairproductsService;
+import com.cuatroa.retocuat.model.Hairproducts;
+import com.cuatroa.retocuat.service.HairproductsService;
 import java.util.List;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;

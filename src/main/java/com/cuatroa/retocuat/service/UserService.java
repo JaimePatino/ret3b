@@ -1,7 +1,7 @@
-package com.cuatroa.retotres.service;
+package com.cuatroa.retocuat.service;
 
-import com.cuatroa.retotres.model.User;
-import com.cuatroa.retotres.repository.UserRepository;
+import com.cuatroa.retocuat.model.User;
+import com.cuatroa.retocuat.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

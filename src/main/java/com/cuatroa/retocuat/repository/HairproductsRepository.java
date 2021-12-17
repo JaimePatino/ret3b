@@ -1,11 +1,11 @@
-package com.cuatroa.retotres.repository;
+package com.cuatroa.retocuat.repository;
 
-import com.cuatroa.retotres.model.Hairproducts;
+import com.cuatroa.retocuat.model.Hairproducts;
 import java.util.List;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
-import com.cuatroa.retotres.repository.crud.HairproductsCrudRepository;
+import com.cuatroa.retocuat.repository.crud.HairproductsCrudRepository;
 
 /**
  *

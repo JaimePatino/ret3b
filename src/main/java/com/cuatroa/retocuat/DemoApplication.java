@@ -1,11 +1,11 @@
-package com.cuatroa.retotres;
+package com.cuatroa.retocuat;
 
-import com.cuatroa.retotres.model.Hairproducts;
-import com.cuatroa.retotres.model.Order;
-import com.cuatroa.retotres.model.User;
-import com.cuatroa.retotres.repository.crud.HairproductsCrudRepository;
-import com.cuatroa.retotres.repository.crud.OrderCrudRepository;
-import com.cuatroa.retotres.repository.crud.UserCrudRepository;
+import com.cuatroa.retocuat.model.Hairproducts;
+import com.cuatroa.retocuat.model.Order;
+import com.cuatroa.retocuat.model.User;
+import com.cuatroa.retocuat.repository.crud.HairproductsCrudRepository;
+import com.cuatroa.retocuat.repository.crud.OrderCrudRepository;
+import com.cuatroa.retocuat.repository.crud.UserCrudRepository;
 import java.text.SimpleDateFormat;
 import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
@@ -33,6 +33,11 @@ public class DemoApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-         
+        
+        SimpleDateFormat ft = new SimpleDateFormat("yyyy-MM-dd");
+        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+        crudRepository.deleteAll();
+        userCrudRepository.deleteAll();
+        orderCrudRepository.deleteAll();
     }
 }

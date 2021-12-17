@@ -1,4 +1,4 @@
-package com.cuatroa.retotres.model;
+package com.cuatroa.retocuat.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

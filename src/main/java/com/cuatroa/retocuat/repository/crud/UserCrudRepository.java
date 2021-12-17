@@ -1,6 +1,6 @@
-package com.cuatroa.retotres.repository.crud;
+package com.cuatroa.retocuat.repository.crud;
 
-import com.cuatroa.retotres.model.User;
+import com.cuatroa.retocuat.model.User;
 import java.util.Optional;
 import org.springframework.data.mongodb.repository.MongoRepository;
 

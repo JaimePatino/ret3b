@@ -1,7 +1,7 @@
-package com.cuatroa.retotres.service;
+package com.cuatroa.retocuat.service;
 
-import com.cuatroa.retotres.model.Hairproducts;
-import com.cuatroa.retotres.repository.HairproductsRepository;
+import com.cuatroa.retocuat.model.Hairproducts;
+import com.cuatroa.retocuat.repository.HairproductsRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

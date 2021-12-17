@@ -1,6 +1,6 @@
-package com.cuatroa.retotres.repository.crud;
+package com.cuatroa.retocuat.repository.crud;
 
-import com.cuatroa.retotres.model.Hairproducts;
+import com.cuatroa.retocuat.model.Hairproducts;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 /**
